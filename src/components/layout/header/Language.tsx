@@ -16,6 +16,8 @@ const Language = () => {
 	const options = [
 		{ value: "ru", label: "RU" },
 		{ value: "kg", label: "KG" },
+		{ value: "en", label: "EN" },
+
 	];
 
 	const LanguageChange = (newLocale: string) => {

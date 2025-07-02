@@ -1,0 +1,58 @@
+{
+  "Header": {
+    "facultet": "Home",
+    "accreditation": "Scientific Works",
+    "departments": "Universities",
+    "research": "Conferences",
+    "specialties": "Books",
+    "administration": "Scientific-Methodological Seminar",
+    "teachers": "Seminar Members"
+  },
+  "Hero": {
+    "title": "Interuniversity Scientific-Methodological Seminar",
+    "desc": "Methodical exploration is the heart of education.",
+    "btn": "Founder of the Seminar"
+  },
+  "About": {
+    "title": "Members of the Scientific-Methodological Seminar",
+    "boy": "Number of Candidates of Sciences",
+    "tich": "Number of Postgraduates",
+    "btn": "Read More",
+    "close": "Close",
+    "text": "Osh PSU — the pride of southern Osh and a center of education! The Osh State Pedagogical University, which has become a training ground for highly qualified pedagogical specialists for Kyrgyzstan's schools, was founded in 1925 as the first pedagogical institution in the south. Over time, it has evolved and expanded: in 1994 it became the Osh Pedagogical College, in 1996 the Osh Higher College, and in 2002 it was granted the status of Osh Humanitarian-Pedagogical Institute. In 2021, by order No. 368/1 of the Ministry of Education and Science of the Kyrgyz Republic, it was renamed the Osh State Pedagogical University. Currently, 13,787 students are studying at the university, and about 300 faculty members are actively working. The university is led by Doctor of Pedagogical Sciences, Professor Bekmurzа Bekbolotovich Zuluyev. MISSION of OshSPU: To train highly qualified specialists with a strong academic foundation who can contribute to society's development and are integrated into the global education system."
+  },
+  "News": {
+    "title": "News"
+  },
+  "Gallery": {
+    "title": "Gallery"
+  },
+  "Contact": {
+    "title": "Contact Us:",
+    "text": "Department of Kyrgyz Language and Literature",
+    "text2": "Department of Russian Language and Literature",
+    "location": "Lenin Street, 3312, 2nd floor, Office 236"
+  },
+  "Footer": {
+    "sos": "Social Media",
+    "prava": "All rights reserved - 2024"
+  },
+  "Admin": {
+    "title": "Scientific Research Activities"
+  },
+  "Teacher": {
+    "title": "Seminar Members"
+  },
+  "Acc": {
+    "title": "Scientific Works"
+  },
+  "Dep": {
+    "title": "Universities"
+  },
+  "Works": {
+    "title": "Conferences"
+  },
+  "Spec": {
+    "title": "Books"
+  }
+}

@@ -1,10 +1,11 @@
 export enum EnumIntl {
   KYRGYZ = "kk",
   RUSSIAN = "ru",
+  ENGLISH = "en",
 }
 
 // types
-export type IntlType = EnumIntl.KYRGYZ | EnumIntl.RUSSIAN;
+export type IntlType = EnumIntl.KYRGYZ | EnumIntl.RUSSIAN | EnumIntl.ENGLISH;
 
 export interface ILocale {
   name: string;

@@ -24,8 +24,8 @@ const SpesDetails = () => {
 		<>
 			<div className={scss.SpesDetails}>
 				<h1 style={{ marginTop: "200px" }}>
-					{spesDetail?.title}
-					{locale === "kg" ? spesDetail?.title_ky : spesDetail?.title_ru}
+					 
+					{locale === "kg" ? spesDetail?.title_ky : locale === "ru"	? spesDetail?.title_ru : spesDetail?.title_en}
 				</h1>
 
 				<div className={scss.cards}>
@@ -33,7 +33,7 @@ const SpesDetails = () => {
 						<div className={scss.card} key={index}>
 							<h2>
 								{" "}
-								{locale === "kg" ? science.name_file_ky : science.name_file_ru}
+								{locale === "kg" ? science.name_file_ky : locale === "ru"	? science.name_file_ru : science.name_file_en}
 							</h2>
 							<button
 								style={{

@@ -21,7 +21,7 @@ const Hero = () => {
 					{data?.map((el, index) => (
 						<h1 onClick={() => router.push(`departments/${el.id}`)} key={index}>
 						 
-							{locale === "kg" ? el.name_ky : el.name_ru}
+						 {locale === "kg" ? el.name_ky : locale === "ru"	? el.name_ru : el.name_en}
 						</h1>
 					))}
 					

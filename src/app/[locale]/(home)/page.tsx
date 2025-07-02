@@ -5,13 +5,12 @@ import React from 'react';
 
 
 export const metadata: Metadata = {
-	title: "Кыргыз-Россия факультети",
-	 	keywords:
-		"Кыргыз,Россия,факультети,Информация",
+	title: "ЖОЖдор аралык илимий-методикалык семинар",
+	 
 	robots: "index, follow",
-	authors: [{ name: "Кыргыз-Россия факультети" }],
+	authors: [{ name: "ЖОЖдор аралык илимий-методикалык семинар" }],
 	openGraph: {
-		title: "Кыргыз-Россия факультети",
+		title: "ЖОЖдор аралык илимий-методикалык семинар",
 	 
 		url: "https://krf-edu.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.aa3b36ce.jpeg&w=1200&q=75",
 		type: "website",

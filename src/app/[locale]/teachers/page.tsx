@@ -6,8 +6,7 @@ import React from 'react';
 
 export const metadata: Metadata = {
 	title: "Преподаватели",
-	 	keywords:
-		"Кыргыз,Россия,факультет,Информация",
+	 
 	robots: "index, follow",
 	authors: [{ name: "Преподаватели" }],
 	openGraph: {

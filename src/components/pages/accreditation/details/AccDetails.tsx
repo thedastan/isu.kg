@@ -27,8 +27,7 @@ const AccDetails = () => {
 		<>
 			<div className={scss.WorksDetails}>
 				<h1 style={{ marginTop: "200px" }}>
-					{spesDetail?.title}
-					{locale === "kg" ? spesDetail?.name_ky : spesDetail?.title_ru}
+					{locale === "kg" ? spesDetail?.name_ky : locale === "ru"	? spesDetail?.name_ru : spesDetail?.name_en}
 				</h1>
 
 				<div className={scss.cards}>
@@ -36,7 +35,7 @@ const AccDetails = () => {
 						<div className={scss.card} key={index}>
 
 							<h2>
-								{locale === "kg" ? science.name_file_ky : science.name_file_ru}
+								{locale === "kg" ? science.name_file_ky : locale === "ru"	? science.name_file_ru : science.name_file_en}
 							</h2>
 
 							<button

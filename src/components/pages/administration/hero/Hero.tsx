@@ -20,7 +20,8 @@ const Hero = () => {
 				<div className={scss.content}>
 					{data?.map((el, index) => (
 						<h1 onClick={() => router.push(`administration/${el.id}`)} key={index}>
-							{locale === "kg" ? el.fullname_ky : el.fullname_ru}
+						 
+							{locale === "kg" ? el.fullname_ky : locale === "ru"	? el.fullname_ru : el.fullname_en}
 						</h1>
 					))}
 				</div>
