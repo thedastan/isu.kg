@@ -9,7 +9,7 @@ import { useParams } from "next/navigation";
 const News = () => {
 	const t = useTranslations("News");
 	const { data } = useGetNewsQuery();
-	const { locale } = useParams();	
+	const { locale } = useParams();
 
 	return (
 		<div className={scss.News}>
@@ -30,7 +30,13 @@ const News = () => {
 									/>
 								</div>
 
-								<h2>{locale === "kg" ? el.title_ky : el.title_ru}</h2>
+								<h2>
+									{locale === "kg"
+										? el.title_ky
+										: locale === "ru"
+										? el.title_ru
+										: el.title_en}
+								</h2>
 							</div>
 						</Link>
 					))}

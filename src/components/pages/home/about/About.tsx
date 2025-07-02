@@ -9,10 +9,11 @@ import about_boy from "@/assets/images/about-boy.jpg";
 import about_tich from "@/assets/images/about-ticher.jpg";
 import { useGetStudentQuery, useGetTichCountQuery } from "@/redux/api/catalog";
 import { useTranslations } from "next-intl";
+import AboutImages from "./AboutImages";
 
 const About = () => {
 	const [isModalOpen, setModalOpen] = useState(false);
- 
+
 		const t = useTranslations("About");
 
 	const openModal = () => setModalOpen(true);
@@ -27,13 +28,8 @@ const About = () => {
 				<div className={scss.line}></div>
 				<div className={scss.content}>
 					<div className={scss.images}>
-						<div className={scss.img}>
-							<Image
-								style={{ width: "100%", height: "100%", objectFit: "cover" }}
-								src={aboutimg}
-								alt="img"
-							/>
-						</div>
+					 
+						<AboutImages/>
 						<div className={scss.image_box}></div>
 					</div>
 
@@ -110,3 +106,4 @@ const About = () => {
 };
 
 export default About;
+  

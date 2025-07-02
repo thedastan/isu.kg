@@ -1,16 +1,13 @@
 "use client";
 import scss from "../hero/Hero.module.scss";
-import { useGetAdminQuery, useGetIlimQuery} from "@/redux/api/catalog";
+import { useGetAdminQuery, useGetIlimQuery } from "@/redux/api/catalog";
 import { useParams } from "next/navigation";
 
 const AdminDetails = () => {
-	const { data, isLoading, error } = useGetAdminQuery();  
-	const { id,locale } = useParams(); 
-	  
+	const { data, isLoading, error } = useGetAdminQuery();
+	const { id, locale } = useParams();
 
 	const numericId = Number(id);
- 
-	
 
 	if (isLoading) return <p>Loading...</p>;
 	if (error) return <p>Error fetching data</p>;
@@ -26,13 +23,16 @@ const AdminDetails = () => {
 	return (
 		<>
 			<div className={scss.WorksDetails}>
-				<h1 style={{ marginTop: "200px" }}>{locale === "kg" ? spesDetail?.fullname_ky : spesDetail?.fullname_ru}</h1>
+				<h1 style={{ marginTop: "200px" }}>
+					{locale === "kg" ? spesDetail?.fullname_ky : locale === "ru"	? spesDetail?.fullname_ru : spesDetail?.fullname_en}
+				</h1>
 
 				<div className={scss.cards}>
 					{spesDetail?.filefield_administration.map((science, index) => (
 						<div className={scss.card} key={index}>
-							<h2>{locale === "kg" ? science.name_file_ky : science.name_file_ru}</h2>
-							
+							<h2>
+								{locale === "kg" ? science.name_file_ky : locale === "ru"	? science.name_file_ru : science.name_file_en}
+							</h2>
 
 							<button
 								style={{
@@ -46,8 +46,6 @@ const AdminDetails = () => {
 							</button>
 						</div>
 					))}
-
-          
 				</div>
 			</div>
 		</>

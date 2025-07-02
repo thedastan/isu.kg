@@ -1,11 +1,11 @@
 "use client";
 import scss from "../hero/Hero.module.scss";
-import { useGetIlimQuery} from "@/redux/api/catalog";
+import { useGetIlimQuery } from "@/redux/api/catalog";
 import { useParams } from "next/navigation";
 
 const WorksDetails = () => {
-	const { data, isLoading, error } = useGetIlimQuery();  
-	const { id,locale } = useParams();  
+	const { data, isLoading, error } = useGetIlimQuery();
+	const { id, locale } = useParams();
 
 	const numericId = Number(id);
 
@@ -23,14 +23,18 @@ const WorksDetails = () => {
 	return (
 		<>
 			<div className={scss.WorksDetails}>
-				<h1 style={{ marginTop: "200px" }}>{locale === "kg" ? spesDetail?.title_ky : spesDetail?.title_ru}</h1>
+				<h1 style={{ marginTop: "200px" }}>
+			 
+					{locale === "kg" ? spesDetail?.title_ky : locale === "ru"	? spesDetail?.title_ru : spesDetail?.title_en}
+				</h1>
 
 				<div className={scss.cards}>
 					{spesDetail?.sciences.map((science, index) => (
 						<div className={scss.card} key={index}>
-
-			 
-							<h2>	{locale === "kg" ? science.name_file_ky : science.name_file_ru}</h2>
+							<h2>
+								{" "}
+								{locale === "kg" ? science.name_file_ky : locale === "ru"	? science.name_file_ru : science.name_file_en}
+							</h2>
 
 							<button
 								style={{
@@ -44,8 +48,6 @@ const WorksDetails = () => {
 							</button>
 						</div>
 					))}
-
-          
 				</div>
 			</div>
 		</>

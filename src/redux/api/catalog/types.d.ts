@@ -5,9 +5,11 @@ namespace NEWS {
 			title: string;
 			title_ru: string;
 			title_ky: string;
+			title_en: string;
 			description: string;
 			description_ru: string;
 			description_ky: string;
+			description_en: string;
 			image: string;
 		}
 	];
@@ -35,14 +37,19 @@ namespace SPES {
 				name_file: string;
 				name_file_ky: string;
 				name_file_ru: string;
+				name_file_en: string;
+
 				file: string;
 			}>;
 			title: string;
 			title_ru: string;
 			title_ky: string;
+			title_en: string;
 			name: string;
 			name_ru: string;
 			name_ky: string;
+			name_en: string;
+
 		}
 	];
 
@@ -58,14 +65,20 @@ namespace Ilim {
 				name_file: string;
 				name_file_ky: string;
 				name_file_ru: string;
+				name_file_en: string;
+
 				file: string;
 			}>;
 			title: string;
 			title_ru: string;
 			title_ky: string;
+			title_en: string;
+
 			name: string;
 			name_ru: string;
 			name_ky: string;
+			name_en: string;
+
 		}
 	];
 
@@ -82,11 +95,15 @@ namespace DEPAR {
 				name_file: string;
 				name_file_ky: string;
 				name_file_ru: string;
+				name_file_en: string;
+
 				file: string;
 			}>;
 			name: string;
 			name_ru: string;
 			name_ky: string;
+			name_en: string;
+
 		}
 	];
 
@@ -102,14 +119,20 @@ namespace ACC {
 				name_file: string;
 				name_file_ky: string;
 				name_file_ru: string;
+				name_file_en: string;
+
 				file: any;
 			}>;
 			title: string;
 			title_ru: string;
 			title_ky: string;
+			title_en: string;
+
 			name: string;
 			name_ru: string;
 			name_ky: string;
+			name_en: string;
+
 		}
 	];
 
@@ -124,11 +147,15 @@ namespace ADMIN {
 				name_file: string;
 				name_file_ky: string;
 				name_file_ru: string;
+				name_file_en: string;
+
 				file: string;
 			}>;
 			fullname: string;
 			fullname_ky: string;
 			fullname_ru: string;
+			fullname_en: string;
+
 			lesson: string;
 		}
 	];
@@ -141,13 +168,20 @@ namespace TICH {
 		{
 			id: number;
 			image: string;
-			full_name: string;
+			full_name_ru: string;
+			full_name_ky: string;
+			full_name_en: string;
+
 			lesson: string;
 			lesson_ru: string;
 			lesson_ky: string;
+			lesson_en: string;
+
 			experience: string;
 			experience_ru: string;
 			experience_ky: string;
+			experience_en: string;
+
 			file: string;
 		}
 	];

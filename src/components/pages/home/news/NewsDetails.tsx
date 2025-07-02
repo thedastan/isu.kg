@@ -24,8 +24,12 @@ const NewsDetails = () => {
                 <Image fill objectFit="cover" src={newsItem.image} alt="img" />
 
                 </div>
-								 <h2>{locale === "kg" ? newsItem.title_ky : newsItem.title_ru}</h2>
-								<p>{locale === "kg" ? newsItem.description_ky : newsItem.description_ru}</p>
+								 <h2> 
+								     {locale === "kg" ? newsItem.title_ky : locale === "ru"	? newsItem.title_ru : newsItem.title_en}
+								 </h2>
+								<p> 
+							  	 {locale === "kg" ? newsItem.description_ky : locale === "ru"	? newsItem.description_ru : newsItem.description_en}
+								</p>
 							</div>
 					</div>
 				</div>

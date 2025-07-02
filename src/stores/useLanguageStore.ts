@@ -3,14 +3,14 @@ import en from "../../messages/kg.json";
 import ru from "../../messages/ru.json";
 
 interface LanguageStore {
-  language: "kg" | "ru";
-  setLanguage: (language: "kg" | "ru") => void;
+  language: "kg" | "ru" | "en";
+  setLanguage: (language: "kg" | "ru" | "en") => void;
   t: (key: string) => string;
 }
 
 export const useLanguageStore = create<LanguageStore>((set, get) => ({
   language: "kg",
-  setLanguage: (language: "kg" | "ru") => set({ language }),
+  setLanguage: (language: "kg" | "ru" | "en") => set({ language }),
   t: (key: string): string => {
     const currentLanguage = get().language;
     const translations: Record<string, any> = currentLanguage === "ru" ? ru : en;

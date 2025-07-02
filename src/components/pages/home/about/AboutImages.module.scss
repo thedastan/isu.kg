@@ -1,0 +1,51 @@
+.about-section {
+	.container {
+		position: relative;
+	}
+
+	.swiper-slide-content {
+		width: 500px;
+		height: 630px;
+		border-radius: 20px;
+		padding: 0;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		@media (min-width: 768px) {
+			padding: 40px; // примерно md:p-10
+		}
+	}
+
+	.navigation-buttons {
+		position: absolute;
+		bottom: 16px;
+		left: 50%;
+		transform: translateX(-50%);
+		display: flex;
+		gap: 24px;
+		z-index: 10;
+
+		button {
+			color: white;
+			font-size: 1.5rem;
+			background-color: rgba(0, 0, 0, 0.6);
+			border: 1px solid black;
+			padding: 8px;
+			border-radius: 10px;
+			transition: background-color 0.3s ease;
+			cursor: pointer;
+
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.6);
+			}
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}

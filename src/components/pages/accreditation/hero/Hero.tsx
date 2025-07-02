@@ -20,7 +20,7 @@ const Hero = () => {
 						<h1
 							onClick={() => router.push(`accreditation/${el.id}`)}
 							key={index}>
-						 {locale === "kg" ? el.title_ky : el.title_ru}
+							{locale === "kg" ? el.title_ky : locale === "ru"	? el.title_ru : el.title_en}
 						</h1>
 					))}
 				</div>
