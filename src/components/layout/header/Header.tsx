@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import scss from "./Header.module.scss";
 
-import logo from "@/assets/images/logo_black.jpeg";
+import logo from "@/assets/images/logo2.png";
 import Link from "next/link";
 import { FaAngleDown } from "react-icons/fa";
 import Language from "./Language";
@@ -33,7 +33,7 @@ const Header = () => {
 					<div className={scss.image}>
 						<Link href={"/"}>
 							<Image
-								style={{ width: "100%", height: "100%", borderRadius: "50%" }}
+								style={{ width: "50px", height: "100%" }}
 								src={logo}
 								alt="img"
 							/>
@@ -55,11 +55,7 @@ const Header = () => {
 							<div className={scss.img}>
 								<Link href={"/"}>
 									<Image
-										style={{
-											width: "100%",
-											height: "100%",
-											borderRadius: "50%",
-										}}
+											style={{ width: "50px", height: "100%" }}
 										src={logo}
 										alt="img"
 									/>
