@@ -2,7 +2,7 @@
 import Image from "next/image";
 import scss from "./Footer.module.scss";
 
-import logo from "@/assets/images/logo_black.jpeg";
+import logo from "@/assets/images/logo2.png";
 import Link from "next/link";
 import {
 	FaInstagram,
@@ -29,7 +29,7 @@ const Footer = () => {
 						<div className={scss.box}>
 							<div className={scss.image}>
 								<Image
-									style={{ width: "100%", height: "100%", borderRadius: "50%" }}
+									style={{ width: "70px", height: "100%" }}
 									src={logo}
 									alt="img"
 								/>
