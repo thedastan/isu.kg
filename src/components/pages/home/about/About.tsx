@@ -14,7 +14,7 @@ import AboutImages from "./AboutImages";
 const About = () => {
 	const [isModalOpen, setModalOpen] = useState(false);
 
-		const t = useTranslations("About");
+	const t = useTranslations("About");
 
 	const openModal = () => setModalOpen(true);
 	const closeModal = () => setModalOpen(false);
@@ -28,8 +28,7 @@ const About = () => {
 				<div className={scss.line}></div>
 				<div className={scss.content}>
 					<div className={scss.images}>
-					 
-						<AboutImages/>
+						<AboutImages />
 						<div className={scss.image_box}></div>
 					</div>
 
@@ -53,9 +52,9 @@ const About = () => {
 
 							<div className={scss.text}>
 								<h1>{t("boy")}</h1>
-								 {data?.map((el,index) => (
+								{data?.map((el, index) => (
 									<h1 key={index}>{el.quantity_students}</h1>
-								 ))}
+								))}
 							</div>
 						</div>
 
@@ -77,9 +76,9 @@ const About = () => {
 							<div className={scss.text}>
 								<h1>{t("tich")}</h1>
 
-								{tich?.map((el,index) => (
+								{tich?.map((el, index) => (
 									<h1 key={index}>{el.quantity_teachers}</h1>
-								 ))}
+								))}
 							</div>
 						</div>
 
@@ -97,7 +96,10 @@ const About = () => {
 						<button className={scss.close_btn} onClick={closeModal}>
 							{t("close")}
 						</button>
+
+						<h2>{t("title_modal")}</h2>
 						<p>{t("text")}</p>
+						 
 					</div>
 				</div>
 			)}
@@ -106,4 +108,3 @@ const About = () => {
 };
 
 export default About;
-  
