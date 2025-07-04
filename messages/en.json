@@ -1,58 +1,59 @@
 {
-  "Header": {
-    "facultet": "Home",
-    "accreditation": "Scientific Works",
-    "departments": "Universities",
-    "research": "Conferences",
-    "specialties": "Books",
-    "administration": "Scientific-Methodological Seminar",
-    "teachers": "Seminar Members"
-  },
-  "Hero": {
-    "title": "Interuniversity Scientific-Methodological Seminar",
-    "desc": "Methodical exploration is the heart of education.",
-    "btn": "Founder of the Seminar"
-  },
-  "About": {
-    "title": "Members of the Scientific-Methodological Seminar",
-    "boy": "Number of Candidates of Sciences",
-    "tich": "Number of Postgraduates",
-    "btn": "Read More",
-    "close": "Close",
-    "text": "Osh PSU — the pride of southern Osh and a center of education! The Osh State Pedagogical University, which has become a training ground for highly qualified pedagogical specialists for Kyrgyzstan's schools, was founded in 1925 as the first pedagogical institution in the south. Over time, it has evolved and expanded: in 1994 it became the Osh Pedagogical College, in 1996 the Osh Higher College, and in 2002 it was granted the status of Osh Humanitarian-Pedagogical Institute. In 2021, by order No. 368/1 of the Ministry of Education and Science of the Kyrgyz Republic, it was renamed the Osh State Pedagogical University. Currently, 13,787 students are studying at the university, and about 300 faculty members are actively working. The university is led by Doctor of Pedagogical Sciences, Professor Bekmurzа Bekbolotovich Zuluyev. MISSION of OshSPU: To train highly qualified specialists with a strong academic foundation who can contribute to society's development and are integrated into the global education system."
-  },
-  "News": {
-    "title": "News"
-  },
-  "Gallery": {
-    "title": "Gallery"
-  },
-  "Contact": {
-    "title": "Contact Us:",
-    "text": "Department of Kyrgyz Language and Literature",
-    "text2": "Department of Russian Language and Literature",
-    "location": "Lenin Street, 3312, 2nd floor, Office 236"
-  },
-  "Footer": {
-    "sos": "Social Media",
-    "prava": "All rights reserved - 2024"
-  },
-  "Admin": {
-    "title": "Scientific Research Activities"
-  },
-  "Teacher": {
-    "title": "Seminar Members"
-  },
-  "Acc": {
-    "title": "Scientific Works"
-  },
-  "Dep": {
-    "title": "Universities"
-  },
-  "Works": {
-    "title": "Conferences"
-  },
-  "Spec": {
-    "title": "Books"
-  }
+	"Header": {
+		"facultet": "Home",
+		"accreditation": "Scientific Works",
+		"departments": "Universities",
+		"research": "Conferences",
+		"specialties": "Books",
+		"administration": "Scientific-Methodological Seminar",
+		"teachers": "Seminar Members"
+	},
+	"Hero": {
+		"title": "Interuniversity Scientific-Methodological Seminar",
+		"desc": "Methodical exploration is the heart of education.",
+		"btn": "Founder of the Seminar"
+	},
+	"About": {
+		"title": "Members of the Scientific-Methodological Seminar",
+		"boy": "Number of Candidates of Sciences",
+		"tich": "Number of Postgraduates",
+		"btn": "Read More",
+		"close": "Close",
+		"title_modal": "History of the Interuniversity Scientific and Methodological Seminar",
+		"text": "The history of the seminar is connected with the Department of 'Methods of Teaching Mathematics' at the Faculty of Physics and Mathematics of Osh State Pedagogical Institute. Since the department gained independent status, a regular methodological seminar began functioning under it. The seminar was led by the head of the department, M.N. Nazarov, who at the time was the only scholar with a PhD in pedagogical sciences in the field of teaching mathematics. The aim of the seminar was to increase the scientific potential of the department and improve the training of mathematics teachers to enhance the quality of mathematics education. The seminar mainly discussed problems related to teaching mathematics in secondary schools, and was attended by school teachers and staff from district and regional educational institutions. The department actively collaborated with the Osh Regional Institute for Teacher Professional Development. In addition, the department’s lecturers regularly attended professional development courses, research trips, and union-wide seminars in the leading scientific centers of the USSR (Moscow, Leningrad, Kyiv, Tashkent, Almaty, Novosibirsk, etc.), which allowed for a broad range of topics to be covered. Due to intensified methodological activities, the number of PhD holders at the department significantly increased: in the 1980s and 1990s, candidates such as M. Altybaeva, Zh. Satarov, S. Madraimov, T. Borubaev, and E.E. Sin defended their dissertations. There is every reason to say that the scientific school of M.N. Nazarov was formed. For example, the reports presented at the 'Current Problems of Teaching Mathematics' seminar were published annually in the collection 'Proceedings of the Scientific-Methodological Seminar of Professor M.N. Nazarov'. At a time when information sources were almost nonexistent, these collections were essential resources for students and teachers. Social and political changes at the time had a significant impact on the education system. The number of universities in Kyrgyzstan increased. Specialists from Osh State University, including members of the Department of Mathematics Teaching Methods (S. Madraimov, S. Zhaparov, T. Borubaev), began to take leadership positions in other institutions. After the death of M.N. Nazarov, the seminar’s activities were mostly halted. On the initiative of department head A. Attokurova, a laboratory named after M.N. Nazarov was created, but it was unable to raise the level of methodological work. A public foundation called 'Academy of Education' was established under the department, through which training seminars for school teachers were organized by university lecturers. These seminars addressed modern issues such as understanding new standards, implementing competency-based approaches in education, and more. However, the need to expand and improve the quality of the training team became apparent. One of the proposed solutions was to revive the 'Current Problems of Teaching Mathematics' seminar, which received strong support from colleagues. On January 2, 2016, the first seminar was held under its new title and status: 'Scientific and Methodological Seminar on Current Problems of Teaching Mathematics and Informatics', officially recognized as an interuniversity initiative. Initially, 12 members from three universities (8 PhDs and 6 graduate students) participated; today, the seminar includes over 30 members from five universities in the southern region. The seminar's goal is to contribute to improving the quality of school and professional mathematical education. One of its tasks is to review and provide feedback on dissertations written for academic degrees. In the past two years, seven dissertations were discussed, three of which have been successfully defended and approved, while the rest are awaiting defense. The seminar has twice (2018–2022) received grants from the Ministry of Education and Science to carry out research projects. As a result, dozens of articles and methodological manuals have been published. Annual work plans are being fulfilled. In all aspects, the seminar is expanding. As the country transitions to a 12-year education system, the interuniversity seminar makes a significant contribution to solving problems in mathematics education."
+	},
+	"News": {
+		"title": "News"
+	},
+	"Gallery": {
+		"title": "Gallery"
+	},
+	"Contact": {
+		"title": "Contact Us:",
+		"text": "Department of Kyrgyz Language and Literature",
+		"text2": "Department of Russian Language and Literature",
+		"location": "Lenin Street, 3312, 2nd floor, Office 236"
+	},
+	"Footer": {
+		"sos": "Social Media",
+		"prava": "All rights reserved - 2024"
+	},
+	"Admin": {
+		"title": "Scientific Research Activities"
+	},
+	"Teacher": {
+		"title": "Seminar Members"
+	},
+	"Acc": {
+		"title": "Scientific Works"
+	},
+	"Dep": {
+		"title": "Universities"
+	},
+	"Works": {
+		"title": "Conferences"
+	},
+	"Spec": {
+		"title": "Books"
+	}
 }
