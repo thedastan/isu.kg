@@ -69,11 +69,11 @@ const Footer = () => {
 						</div>
 					</div>
 
-					<div className={scss.line}></div>
+					{/* <div className={scss.line}></div>
 
 					<div className={scss.block2}>
 						<p>{t("prava")}</p>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</footer>
