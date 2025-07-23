@@ -21,7 +21,7 @@ const NewsDetails = () => {
 					<div className={scss.block}>
 							<div className={scss.box}>
                 <div className={scss.image}>
-                <Image fill objectFit="cover" src={newsItem.image} alt="img" />
+                <Image fill objectFit="contain" src={newsItem.image} alt="img" />
 
                 </div>
 								 <h2> 
